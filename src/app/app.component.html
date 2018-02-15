@@ -1,7 +1,20 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>{{ title }}!
-  </h1>
-  <app-heroes></app-heroes>
-  <app-messages></app-messages>
+<div class="container">
+    <div class="jumbotron">
+          <h1>{{ title }}!</h1>
+    </div>
+    <div class="panel panel-primary">
+        <div class="panel-heading">My Heros</div>
+        <div class="panel-body">
+            <app-heroes></app-heroes>
+        </div>
+       
+      </div>
+ 
+    <div class="panel panel-primary">
+    <div class="panel-heading">Messages</div>
+    <div class="panel-body">
+      <app-messages></app-messages>
+    </div>
+  </div>
 </div>
